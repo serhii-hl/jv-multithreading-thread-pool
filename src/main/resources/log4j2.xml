@@ -5,7 +5,7 @@
             <PatternLayout pattern="%-5level %c:%L - %msg%n"/>
         </Console>
         <File name="LogToFile" filename="logs/app.log" append="false">
-            <PatternLayout><Pattern>%p %c:%L %m%n</Pattern></PatternLayout>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c:%L - %msg%n"/>
         </File>
     </Appenders>
     <Loggers>
