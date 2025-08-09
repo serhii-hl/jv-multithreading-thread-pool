@@ -5,7 +5,8 @@ import java.util.Random;
 import java.util.concurrent.Callable;
 
 public class MyThread implements Callable<String> {
-    Random rand = new Random();
+    private Random rand = new Random();
+
     @Override
     public String call() throws InterruptedException {
         int i = rand.nextInt(500);
