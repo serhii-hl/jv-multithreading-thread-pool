@@ -14,7 +14,7 @@ to get the time when this thread finishes execution.
 After all your tasks are executed, in `main()` method log the result string from each `Future` in `futures` list.
 
 Note that you should push the file with logs to your PR, so please, do not add it to `.gitignore`.
-You may probably need to use the absolute path to the log file in `log4j2.xml`.
+You may probably need to use the absolute path to the log file in `log4j2.xml`..
 
 Logs example:
 ```
